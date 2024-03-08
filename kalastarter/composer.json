@@ -1,0 +1,29 @@
+{
+    "name": "kalamuna/kalabase",
+    "description": "Simple base configuration for Kala9.",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Bob McDonald",
+            "homepage": "https://kalamuna.com",
+            "role": "Maintainer"
+        }
+    ],
+    "require":
+    {
+        "drupal/admin_toolbar": "^3.4",
+        "drupal/better_exposed_filters": "^6.0",
+        "drupal/config_split": "^2.0@rc",
+        "drupal/environment_indicator": "^4.0",
+        "drupal/environment_indicator_ribbon": "^1.0",
+        "drupal/google_tag": "^2.0",
+        "drupal/pathauto": "^1.11",
+        "drupal/rabbit_hole": "^1.0@beta",
+        "drupal/simple_sitemap": "^4",
+        "drupal/token": "^1.13",
+        "drupal/ultimate_cron": "*"
+    },
+    "suggest": {
+    }
+}

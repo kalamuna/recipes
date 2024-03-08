@@ -1,0 +1,16 @@
+uuid: b6373198-f1af-4f57-8e52-abfff92f837d
+langcode: en
+status: false
+dependencies: {  }
+id: live
+label: Live
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: splits/live
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list: {  }

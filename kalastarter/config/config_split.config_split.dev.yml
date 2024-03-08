@@ -1,0 +1,16 @@
+uuid: 9e9e82f3-2d4f-4943-bcac-3d152a9a6a16
+langcode: en
+status: false
+dependencies: {  }
+id: dev
+label: Dev
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: splits/dev
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list: {  }

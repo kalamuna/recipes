@@ -1,0 +1,76 @@
+name: 'Kalastarter'
+description: 'Initial website setup for Kala9.'
+type: 'Site'
+# https://git.drupalcode.org/project/distributions_recipes/-/blob/1.0.x/docs/recipe_author_guide.md
+install:
+  # Core.
+  - automated_cron
+  - block_content
+  - ckeditor5
+  - config
+  - dblog
+  - dynamic_page_cache
+  - field_ui
+  - layout_builder
+  - menu_ui
+  - options
+  - page_cache
+  - path
+  - path_alias
+  - taxonomy
+  - views_ui
+  # Contrib.
+  - admin_toolbar
+  - better_exposed_filters
+  - config_split
+  - ctools
+  - environment_indicator
+  - environment_indicator_ribbon
+  - google_tag
+  - pathauto
+  - rabbit_hole
+  - search_api
+  - simple_sitemap
+  - token
+  - ultimate_cron
+config:
+  import:
+    # Core.
+    automated_cron: '*'
+    block_content:
+      # view for listing custom blocks
+      - views.view.block_content
+    dblog: '*'
+    field_ui: '*'
+    menu_ui: '*'
+    taxonomy:
+      # We don't need a default page for taxonomy terms
+      - core.entity_view_mode.taxonomy_term.full
+      - system.action.taxonomy_term_publish_action
+      - system.action.taxonomy_term_unpublish_action
+      - taxonomy.settings
+    views: '*'
+    # Contrib
+    admin_toolbar: '*'
+    environment_indicator: '*'
+    google_tag: '*'
+    pathauto: '*'
+    simple_sitemap: '*'
+    ultimate_cron: '*'
+actions:
+  # Core.
+  # Sets Cron interval to 0.
+  automated_cron.settings:
+    simple_config_update:
+      interval: 0
+  # Performance
+  system.performance:
+    simple_config_update:
+      cache.page.max_age: 300
+      css.preprocess: true
+      js.preprocess: true
+  # Only Admins can register accounts.
+  user.settings:
+    simple_config_update:
+      register: admin_only
+  # Contrib

@@ -1,0 +1,16 @@
+uuid: 8fba4408-ac59-43d5-857c-70bbdcd7b303
+langcode: en
+status: false
+dependencies: {  }
+id: test
+label: Test
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: splits/test
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list: {  }
