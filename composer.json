@@ -14,6 +14,6 @@
         "drupal/permissions_filter": "^1.6",
         "drupal/rabbit_hole": "^1.0@beta",
         "drupal/search_api": "^1.31",
-        "drush/drush": "^12.4",
+        "drush/drush": "^12.4"
     }
 }
