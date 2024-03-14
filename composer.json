@@ -1,0 +1,19 @@
+{
+    "name": "kalamuna/recipes",
+    "description": "A recipe for Kalamuna starter.",
+    "keywords": ["recipe", "Drupal base install", "best practices", "simple install"],
+    "type": "drupal-recipe",
+    "require": {
+        "drupal/admin_toolbar": "^3.4",
+        "drupal/better_exposed_filters": "^6.0",
+        "drupal/config_split": "^2.0",
+        "drupal/core-composer-scaffold": "^10.2",
+        "drupal/core-project-message": "^10.2",
+        "drupal/core-recommended": "^10.2",
+        "drupal/layoutbuilder_search_api": "^1.0",
+        "drupal/permissions_filter": "^1.6",
+        "drupal/rabbit_hole": "^1.0@beta",
+        "drupal/search_api": "^1.31",
+        "drush/drush": "^12.4",
+    }
+}
