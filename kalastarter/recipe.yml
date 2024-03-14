@@ -21,12 +21,14 @@ install:
   - views_ui
   # Contrib.
   - admin_toolbar
+  - admin_toolbar_tools
   - better_exposed_filters
   - config_split
   - ctools
   - environment_indicator
   - environment_indicator_ribbon
   - google_tag
+  - layoutbuilder_search_api
   - pathauto
   - rabbit_hole
   - search_api
