@@ -2,6 +2,5 @@
     "name": "kalamuna/recipes",
     "description": "A recipe for Kalamuna starter.",
     "keywords": ["recipe", "Drupal base install", "best practices", "simple install"],
-    "type": "drupal-recipe",
-    "require": {}
+    "type": "drupal-recipe"
 }
