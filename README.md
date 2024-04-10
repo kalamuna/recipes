@@ -1,12 +1,12 @@
 # Kalamuna Recipes
 
+**Work in Progress** This is a work in progress.  It is not stable or useful yet.
+
 [Recipes](https://www.drupal.org/project/distributions_recipes) allow the one import of a set of configuration to a Drupal website.  After the import is complete, the recipe no longer does anything with the site, and it is up to the site maintainer to manage the site from there.  This is similar to the new [starterkit theme](https://www.drupal.org/docs/core-modules-and-themes/core-themes/starterkit-theme) concept introduced in Drupal 10.
 
 ## Purpose
 
 This repo is intended to hold a collection of Kalamuna site-starter configurations, that will build on each other.  We would have a starter that brings in the configurations that are common to all of our sites, and then more specific configurations for different types of site.  As an example, we might have a non-profit fundraiser config that brings in the modules and config that we commonly need when building a site that needs to help an organization fundraise.
-
-Recipes is still no stable, and as of this writing there are still issues with configuration collisions that prevent importing multiple recipes if any of their configuration overlaps.  This is one of the major blockers for this becoming a useful tool for us.
 
 ### KalaStarter
 The starter recipe for Kalamuna installs several modules, and imports some or all of the default configuration that comes with them.  Most notably, it sets of the default config split environments, and configures pathauto for node paths.  It currently installs the following recipes:
