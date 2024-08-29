@@ -26,7 +26,6 @@ install:
   - config_split
   - ctools
   - environment_indicator
-  - environment_indicator_ribbon
   - google_tag
   - layoutbuilder_search_api
   - pathauto
