@@ -54,7 +54,7 @@ composer config allow-plugins.cweagans/composer-patches true
 composer require cweagans/composer-patches
 
 # Add Drupal core patch for recipes to composer.json and update core.
-composer config extra.patches --merge --json '{"drupal/core": {"Allow recipes to be applied": "[https://git.drupalcode.org/project/distributions_recipes/-/raw/patch/recipe-10.2.x.patch](https://git.drupalcode.org/project/distributions_recipes/-/raw/patch/recipe-11.x.patch)"}}'
+composer config extra.patches --merge --json '{"drupal/core": {"Allow recipes to be applied": "https://git.drupalcode.org/project/distributions_recipes/-/raw/patch/recipe-10.2.x.patch](https://git.drupalcode.org/project/distributions_recipes/-/raw/patch/recipe-11.x.patch)"}}'
 composer update drupal/core
 
 # Configure the location recipes go when required.
